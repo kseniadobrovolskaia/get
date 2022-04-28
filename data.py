@@ -15,11 +15,11 @@ print(data_array)
 print(time)
 
 fig, ax = plt.subplots(figsize = (16, 10), dpi = 400)
-ax.plot(data_array, label = "V(t)", marker = "s", color = "red")
+ax.plot(data_array, label = "V(t)", marker = "s")
 
 
 ax.grid(which="major", linewidth=1.2)
-ax.grid(which="minor", linestyle="--", color="red", linewidth=0.5)
+ax.grid(which="minor", linestyle="--", color="grey", linewidth=0.5)
 
 ax.legend()
 ax.xaxis.set_minor_locator(AutoMinorLocator())
